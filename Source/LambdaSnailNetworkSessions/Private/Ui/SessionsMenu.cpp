@@ -54,6 +54,7 @@ void USessionsMenu::SessionManager_OnCreateSessionComplete(bool bWasSuccessful)
 	{
 		if(UWorld* World = GetWorld())
 		{
+			
 			World->ServerTravel(FString::Format(TEXT("{0}{1}"), { PathToLobby, "?listen"}));
 		}
 	}
