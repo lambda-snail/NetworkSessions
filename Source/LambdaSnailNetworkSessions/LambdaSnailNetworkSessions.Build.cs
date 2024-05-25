@@ -15,7 +15,8 @@ public class LambdaSnailNetworkSessions : ModuleRules
 			"OnlineSubsystemSteam",
 			"UMG",
 			"Slate",
-			"SlateCore"
+			"SlateCore",
+			"CommonUI"
 		});
 			
 		

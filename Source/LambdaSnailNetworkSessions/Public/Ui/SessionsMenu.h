@@ -3,9 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CommonActivatableWidget.h"
 #include "Interfaces/OnlineSessionInterface.h"
 #include "OnlineSessionSettings.h"
-#include "Blueprint/UserWidget.h"
 
 #include "SessionsMenu.generated.h"
 
@@ -16,7 +16,7 @@ class USessionManager;
  * 
  */
 UCLASS()
-class LAMBDASNAILNETWORKSESSIONS_API USessionsMenu : public UUserWidget
+class LAMBDASNAILNETWORKSESSIONS_API USessionsMenu : public UCommonActivatableWidget
 {
 	GENERATED_BODY()
 
